@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.event-list-app {
+  text-align: center;
+  width: 60%;
+  min-width: 800px;
+  margin: auto;
+}
+
+.event-list-app__btn {
+  margin: 2rem 0;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  color: #f0f0f0;
+  background-color: #008cba;
+}
+
+.event-list-app__container {
+  border: 3px solid #e6e2d3;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  line-height: 40px;
+}
+.event-list-app__table {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border-collapse:collapse;
+  table-layout: fixed;
+}
+
+.event {
+  font-size: 1rem;
+  background-color: #e6e2d3;
+  border: 10px solid white;
+}
+
+[class*=event__btn-] {
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  padding: 5px;
+  border-radius: 2px;
+  color: #f0f0f0;
+}
+
+.event__btn-edit, .event__btn-add {
+  background-color: #008cba;
+}
+
+.event__btn-delete, .event__btn-cancel {
+  margin-left: 10px;
+  background-color: #c94c4c;
+}
+
+svg {
+  width: auto;
+  height: auto;
+  fill: #f0f0f0;
+  vertical-align: middle;
+}
