@@ -1,5 +1,5 @@
 export const API = (() => {
-  const URL = "http://localhost:3000/events";
+  const URL = "https://thin-aspiring-bison.glitch.me/events";
   
   const getEvents = () => {
     return fetch(URL).then((res) => res.json());
