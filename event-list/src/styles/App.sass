@@ -1,0 +1,60 @@
+@import "./variables"
+@import "./mixins"
+
+*, *::after, *::before
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: Arial, Helvetica, sans-serif
+
+html
+  font-size: 62.5%
+
+body
+  font-size: 1.6rem
+
+.event-list-app
+  text-align: center
+  width: 60%
+  min-width: 800px
+  margin: auto
+
+  &__btn
+    margin: 2rem 0
+    padding: 10px 15px
+    border: 0
+    border-radius: 5px
+    color: $color-traffic-white
+    background-color: $color-blue
+
+  &__container
+    border: 3px solid $color-tan
+    border-radius: 5px
+    width: 100%
+    margin: auto
+    line-height: 40px
+
+  &__table
+    margin: auto
+    width: 100%
+    padding: 10px
+    border-collapse: collapse
+    table-layout: fixed
+
+.event
+  font-size: 1rem
+  background-color: $color-tan
+  border: 10px solid white
+
+  &__btn-edit, &__btn-add
+    @include button($color-blue)
+
+  &__btn-delete, &__btn-cancel
+    margin-left: 10px
+    @include button($color-vermillion-red)
+
+svg
+  width: auto
+  height: auto
+  fill: $color-traffic-white
+  vertical-align: middle

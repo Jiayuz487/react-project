@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/App.sass";
 import { API } from "./API/api";
 import AppContext from "./context/appContext";
 import EventList from "./components/eventList";

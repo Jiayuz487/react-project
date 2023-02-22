@@ -62,6 +62,4 @@ const cancelIcon = (
   </svg>
 );
 
-export {
-  addIcon, deleteIcon, cancelIcon, editIcon, saveIcon
-};
+export { addIcon, deleteIcon, cancelIcon, editIcon, saveIcon };
